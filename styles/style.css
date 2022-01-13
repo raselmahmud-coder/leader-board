@@ -1,17 +1,37 @@
-/* *{
-    box-sizing: border-box;
-} */
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* style for Utility or common */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f1ff;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #fff;
+    width: 870px;
+    padding: 30px;
+}
+
 /* Top players css */
+.section-title{
+    color: #562eff;
+    font-size: 24px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 .player{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .player img{
     width: 56px;
     height: 56px;
+}
+.player-name{
+    margin-left: 16px;
 }
